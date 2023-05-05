@@ -1,4 +1,4 @@
-const { Schema, model } = require('mongoose');
+const { Schema, Types } = require('mongoose');
 
 const reactionSchema = new Schema(
     {
@@ -18,7 +18,7 @@ const reactionSchema = new Schema(
         createdAt: {
             type: Date,
             default: Date.now,
-            // get: "",
+            get: (date) => date.toLocaleDateString(),
         },
     },
     {
@@ -32,4 +32,4 @@ const reactionSchema = new Schema(
 
 module.exports = reactionSchema;
 
-// NEED GETTER METHOD TO FORMAT TIMESTAMP ON QUERY
+
