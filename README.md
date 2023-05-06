@@ -24,12 +24,15 @@ Then run 'npm i mongoose' to install Mongoose and 'npm i express' to install Exp
 
 ## Usage
 
+PLEASE FIND DEMO VIDEO CONTAINED IN THIS LINK:
+
 To start the server run 'node index.js'. 
 
 
-    ```md
+
+
     ![alt text](assets/images/screenshot.png)
-    ```
+
 
 ## Credits
 
