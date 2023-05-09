@@ -33,16 +33,18 @@ Steps to running the application:
 
 Routes for interacting with each of the models: 
 
-[alt text](./assets/images/18_insomnia-models.png)
+![alt text](./assets/images/18_insomnia-models.png)
 
 1. GET all users / all thoughts
 "GET/api/users" gets all users with their user id, username, email, thoughts by id, friends by id, and friend count. 
-[alt text](./assets/images/18GET-AllUsers.png)
+
+![alt text](./assets/images/18GET-AllUsers.png)
 
 
 2. GET single user / single thought
 "GET/api/users:userId" gets a single user with their user id, username, email, thoughts by id, friends by id, and friend count.
-[alt text](./assets/images/18GET-SingleUser.png)
+
+![alt text](./assets/images/18GET-SingleUser.png)
 
 
 3. POST / PUT / DELETE users / thoughts 
